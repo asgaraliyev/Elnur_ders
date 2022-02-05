@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Qeydiyyat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Qeydiyyatdan kecin</h1>
+    <form>
+        <input placeholder="adiniz" />
+        <br>
+        <br>
+        <input placeholder="soyadiniz" />
+        <br>
+        <br>
+        <input placeholder="istifadeci adi" />
+        <br>
+        <br>
+        <input placeholder="E-poct" type="email" />
+        <br>
+        <br>
+        <input placeholder="Nece dostunuz var?" type="number" />
+        <br>
+        <br>
+        <input placeholder="Dogum tarixi" type="date" />
+        <br>
+        <br>
+        <input placeholder="Sifre" />
+        <br>
+        <br>
+        <a href="./daxilol.html">Hesabiniz var?Daxil ol</a>
+        <br>
+        <br>
+        <input type="submit" value="qeydiyyatdan kec">
+    </form>
+</body>
+<script>
+    document.getElementsByTagName("form")[0].addEventListener("submit", function (e) {
+        e.preventDefault()
+    })
+</script>
+
+</html>
